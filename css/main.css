@@ -1,0 +1,98 @@
+*{list-style: none;
+text-decoration:none;}
+
+header { 
+height: 90px;
+background-color:black ;  
+position: fixed;
+top: 0;
+left: 0;
+right: 0;
+}
+
+header .inner{
+    width: 1200px;
+    margin: 0 auto;  
+}
+footer .inner{
+    width: 1200px;
+    margin: 0 auto;  
+}
+.gnb{   
+    width: 100%;
+    height: 100px;   
+    float: left;
+    display: flex;  
+}
+.gnb .logo{margin-left: 50px;}
+.gnb-list{
+    height: 255px;
+    margin-top: 30px;
+  }
+
+.gnb-list>a{
+  color:#ffff;font-size: 20px;  margin-right: 80px; 
+}
+
+.gnb-list>li:hover {
+
+    color:#000;
+    font-size: 15px;    
+    background-color: #ffff; opacity:0.9;
+}
+
+
+footer{
+    height: 321px;
+    background: #3195d9;   
+}
+.bottom-menu{
+    width: 100%; 
+    /* float: left; */
+    display: flex; 
+
+   
+}
+.bottom-list>a{
+    color: #ffff;
+    font-size: 20px;
+    margin : 50px 50px;
+   
+    line-height: 35px;   
+}
+.main{
+    height: 1000px;
+    background-color: aquamarine;
+}
+/* .company-info{
+} */
+.bottom-menu .bottom-list>li>a{
+    color: #ffff;
+    font-size: 15px;
+    line-height: 35px;
+    margin : 100px 50px;
+  
+   
+}
+
+footer .company-info{    
+    margin:10px;
+    padding-top: 20px;
+  
+}
+.company-info .bottom-img{
+    float: left; 
+    margin: 30px 45px;
+
+}
+.company-info .bottom-text{
+    color: #000000;
+    font-size: 12px;
+    margin: 30px;
+    float: left;
+  
+}
+.company-info .bottom-icon{
+  float: left;
+  margin: 30px 30px;
+}
