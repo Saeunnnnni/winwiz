@@ -52,7 +52,6 @@
 
     .BI_first{
      margin : 30px;
-     /* width: 100%; */
      
     }
     .BI_firstText{
@@ -63,9 +62,8 @@
 
 
     .menu{
-        display: flex;
-        text-decoration: none;
-        margin-top: 78px;
+        display: flex;     
+        margin-top: 78px;       
     
     }  
     .menu>li{
@@ -83,3 +81,77 @@
         background-color: #3f87d2;
         color: #fff;
     }
+/* 버튼 */
+
+
+
+
+    table{
+        border-collapse: collapse;
+     
+    }
+    caption{
+        display: none;
+    }
+   
+    .total_num p{
+        float: left;       
+    }
+    .total_num .number{
+        font-weight: bold;
+        color: #3f87d2;
+       
+    }
+    .list_searchBox{
+      float: right;
+    }
+
+    .list_searchBox button{
+       background-color: #3f87d2;
+       border:none;
+       color: #fff;
+       font-size: 12px;
+       width: 60px;
+       height: 20px;
+
+    }
+   
+    .board_list_wrap{
+        padding: 10px;
+        
+    }
+    .board_list{
+        width: 100%;
+        border-top: 2px solid#3f87d2;
+        margin: 30px auto;
+        
+       
+    }
+      
+    .board_list td{
+        padding:10px;
+        font-size: 15px;
+        color: #000;
+        border : 0.8px solid #bfc0c0;
+        text-align: center;
+       
+    }
+    .board_list th{
+        padding:10px;
+        font-size: 20px;
+        font-weight: bold;       
+       background-color: #bfc0c0; 
+       opacity: 0.5; 
+       border : 0.8px solid #bfc0c0;       
+    }
+
+    .board_list .title{
+        text-align: left;
+       
+    }
+    .board_list .title:hover{
+        text-decoration: underline;
+    }
+
+
+/* 게시판  */
