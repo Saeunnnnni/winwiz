@@ -5,19 +5,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="../css/sub_navBar.css" />
+    <link rel="stylesheet" href="../../css/page/page6.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="apple-touch-icon" href="./images/common/KakaoTalk_20220705_140946097.png">
-    <link rel="icon" href="./images/common/KakaoTalk_20220705_140946097.png">
+    <link rel="apple-touch-icon" href="../../images/common/KakaoTalk_20220705_140946097.png">
+    <link rel="icon" href="../../images/common/KakaoTalk_20220705_140946097.png">
 </head>
 <body>
 
     <div class="sub-wrap">
     <div class="inner">
         <div class="bigImg">
-           <img src="../images/common/sub_img.jpg" alt="">
+           
         </div>
         <div class="sub-wrap-title">
             <p>Business Information</p>
@@ -25,12 +25,12 @@
        
         <div class="sub_navBar">
             <ul class="sub_navBar_list">
-                <li><a href="#">회사개요</a></li>
-                <li><a href="#">회사연혁</a></li>
-                <li><a href="#">회사조직도</a></li>
-                <li><a href="#">회사CEO인사말</a></li>
-                <li><a href="#">오시는길</a></li>
-                <li><a href="#">홍보센터</a></li>
+                <li><a href="../page1-1.html">회사개요</a></li>
+                <li><a href="../page1-2.html">회사연혁</a></li>
+                <li><a href="../page1-3.html">회사조직도</a></li>
+                <li><a href="../page1-4.html">회사CEO인사말</a></li>
+                <li><a href="../page1-5.html">오시는길</a></li>
+                <li><a href="1.html">홍보센터</a></li>
             </ul>
         </div>
     
@@ -44,8 +44,10 @@
     </div>
     <div class="box">
         <ul class="menu">
-            <li class="m1"><a href="#">공지사항</a></li>
-            <li class="m2"><a href="#">포토갤러리</a></li>
+            <li class="m1"><a href="./1.html">공지사항</a></li>
+            <li class="m2"><a href="./3.html">포토갤러리</a></li>
+           
+           
            
         </ul>
  
@@ -60,12 +62,12 @@
                 <p class="number">19</p>
             </div>
             <div class="list_searchBox">
-                <select name="searchBox_list">
+                <select class="searchBox_list">
                     <option value="all">All</option>
                     <option value="date">날짜</option>
                     <option value="name">이름</option>
                 </select>
-                <input type="search">
+                <input type="search" class="list_search">
                 <button type="button">Search</button>
     
     
@@ -76,6 +78,11 @@
 
         <table class="board_list">
             <caption>게시판 목록</caption>
+            <colgroup>
+            <col width="60px">
+            <col width="*">
+            <col width="140px">
+        </colgroup>
             <thead>
                 <tr>
                     <th>No</th>
@@ -86,39 +93,66 @@
             </thead>
             <tbody>
                 <tr>
+                    <td>8</td>
+                    <td class="title">
+                        <a href="./2.html">윈위즈 취업규칙</a> </td>
+                    <td>2022-02-04</td>
+                </tr>
+                <tr>
+                    <td>7</td>
+                    <td class="title">
+                        <a href="./2.html">윈위즈 취업규칙</a> </td>
+                    <td>2022-02-04</td>
+                </tr>
+                <tr>
+                    <td>6</td>
+                    <td class="title">
+                        <a href="./2.html">윈위즈 취업규칙</a> </td>
+                    <td>2022-02-04</td>
+                </tr>
+                <tr>
                     <td>5</td>
                     <td class="title">
-                        <a href="#">윈위즈 취업규칙</a> </td>
+                        <a href="./2.html">윈위즈 취업규칙</a> </td>
                     <td>2022-02-04</td>
                 </tr>
                 <tr>
                     <td>4</td>
                     <td class="title">
-                        <a href="#">[공지] 코로나 백신휴가 사용</a></td>
+                        <a href="./2.html">[공지] 코로나 백신휴가 사용</a></td>
                     <td>2022-02-04</td>
                 </tr>
                 <tr>
                     <td>3</td>
                     <td class="title">
-                        <a href="#">[공지] 본사 유연근무제 실시</a></td>
+                        <a href="./2.html">[공지] 본사 유연근무제 실시</a></td>
                     <td>2022-02-04</td>
                 </tr>
                 <tr>
                     <td>2</td>
                     <td class="title"> 
-                        <a href="#">[공지] 피자헛 주문시스템 구축</a></td>
+                        <a href="./2.html">[공지] 피자헛 주문시스템 구축</a></td>
                     <td>2022-02-04</td>
                 </tr>
                 <tr>
                     <td>1</td>
                     <td class="title">
-                        <a href="#">[공지] 스타필드 점포마감 자동화 시스템 구축</a></td>
+                        <a href="./2.html">[공지] 스타필드 점포마감 자동화 시스템 구축</a></td>
                     <td>2022-02-04</td>
                 </tr>
 
                 
             </tbody>
         </table>
+        <div class="paging">
+            <a href="#">맨처음</a>
+            <a href="#">◀</a>
+            <a href="#">1</a>
+            <a href="#">2</a>
+            <a href="#">▶</a>
+            <a href="#">맨끝</a>
+        </div>
+
     </div>
 </body>
 </html>
